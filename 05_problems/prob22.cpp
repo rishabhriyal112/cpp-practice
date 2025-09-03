@@ -1,11 +1,10 @@
-// Star Pattern
 #include <iostream>
 using namespace std;
 
-// ****
-// ****
-// ****
-// ****
+// D 
+// C D
+// B C D
+// A B C D
 
 int main(){
     int n;
@@ -13,9 +12,11 @@ int main(){
     cin >> n;
     int i =1;
     while(i<=n){
-        int j=1 ;
-        while(j<=n){
-            cout<<"*";
+        int j = 1;
+        char start = 'A' + n - i;
+        while(j<=i){
+            cout << start << " ";
+            start++;
             j++;
         }
         cout << endl;

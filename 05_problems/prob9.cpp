@@ -1,24 +1,24 @@
-// Star Pattern
 #include <iostream>
 using namespace std;
 
-// ****
-// ****
-// ****
-// ****
+// 1234
+// 1234
+// 1234
+// 1234
 
 int main(){
     int n;
     cout << "Enter the Number : ";
-    cin >> n;
+    cin>>n;
     int i =1;
     while(i<=n){
-        int j=1 ;
+        int j =1;
         while(j<=n){
-            cout<<"*";
+            cout<<j;
             j++;
         }
         cout << endl;
         i++;
     }
+
 }
