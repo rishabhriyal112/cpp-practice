@@ -29,6 +29,5 @@ int main() {
     // Right shift: 0010 >> 1 = 0001 (decimal 1)
     int rightShift = a >> 1;
     cout << "Right shift operator: " << rightShift << endl;
-
     return 0;
 }
