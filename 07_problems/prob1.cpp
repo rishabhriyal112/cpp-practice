@@ -2,11 +2,13 @@
 #include <math.h>
 using namespace std;
 
+//Binary to Decimal
+
 int main(){
     int n;
     cout << "Enter the Number : ";
     cin >> n;
-    int ans=0;
+    float ans=0;
     int i=0;
     while(n != 0){
         int bit = n & 1;
